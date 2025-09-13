@@ -1,2 +1,5 @@
+# Ignore folder (assets/myignore/)
 assets/myignore/
+
+# Ignore file (ignore.php)
 ignore.php
