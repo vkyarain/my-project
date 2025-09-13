@@ -3,7 +3,8 @@ echo 'This is my PHP file';
 $vafsdf =   33;
 
 function asfd(){
-    echo '';exit;
+    echo 'This is my function';
+    exit;
 }
 
 ?>
