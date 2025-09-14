@@ -10,8 +10,3 @@
     wrong code added
 </body>
 </html>
-
-commands:
-git log //press q for termination
-git log --oneline
-git revert 4f11659
