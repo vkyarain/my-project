@@ -1,0 +1,199 @@
+{
+  "workbench.colorTheme": "JellyFish",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.guides.bracketPairs": "active",
+
+  "dbcode.connections": [
+    {
+      "connectionId": "jANA4DxQlVOJ0PCYotz2W",
+      "name": "ProductsAPIs",
+      "driver": "sqlite",
+      "connectionType": "socket",
+      "socket": "c:\\Users\\Waqar Qayoom\\Desktop\\symfony-product-api\\product-api\\var\\data_dev.db",
+      "readOnly": false,
+      "driverOptions": {
+        "extensions": []
+      },
+      "idleTimeout": 0
+    }
+  ],
+
+  "dbcode.resultLocation": "below",
+
+  "editor.tokenColorCustomizations": {
+    "[JellyFish]": {
+      "textMateRules": [
+        {
+          // <?php and ?> red
+          "scope": [
+            "punctuation.section.embedded.begin.php",
+            "punctuation.section.embedded.end.php"
+          ],
+          "settings": {
+            "foreground": "#eb0000"
+          }
+        },
+        {
+          // Comments (//, /* */, ##) yellow
+          "scope": [
+            "comment.line.double-slash.php",
+            "comment.block.php",
+            "comment.line.number-sign.php"
+          ],
+          "settings": {
+            "foreground": "#ffff00",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          // Variables grey
+          "scope": [
+            "variable.other.php",
+            "punctuation.definition.variable.php"
+          ],
+          "settings": {
+            "foreground": "#7094b1"
+          }
+        },
+        {
+          // NULL, TRUE, FALSE bright green
+          "scope": "constant.language.php",
+          "settings": {
+            "foreground": "#1d651d",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          // function keyword blue
+          "scope": "storage.type.function.php",
+          "settings": {
+            "foreground": "#001fcc88",
+            "fontStyle": "bold"
+          }
+        },
+        {
+  // class, extends, parent keywords green
+   "scope": [
+    "keyword.other.class.php",
+    "storage.modifier.extends.php",
+    "keyword.other.parent.php"
+  ],
+  "settings": {
+    "foreground": "#054d05",
+    "fontStyle": "bold"
+  }
+},{
+  "scope": [
+    "storage.type.class.php",
+    "storage.type.php"
+  ],
+  "settings": {
+    "foreground": "#054d05",
+    "fontStyle": "bold"
+  }
+},{
+  "scope": [
+    "support.function.php",      // defined, date_default_timezone_set, is_numeric, isset, etc.
+    "keyword.other.use.php"      // use keyword
+  ],
+  "settings": {
+    "foreground": "#001fcc",
+    "fontStyle": "bold"
+  }
+},{
+  "scope": [
+    "support.function.php",
+    "support.function.datetime.php",
+    "keyword.other.use.php"
+  ],
+  "settings": {
+    "foreground": "#001fcc",
+    "fontStyle": "bold"
+  }
+},
+        {
+          // custom function names grey
+          "scope": "entity.name.function.php",
+          "settings": {
+            "foreground": "#B0B0B0"
+          }
+        },
+        {
+          // echo blue
+          "scope": "support.function.construct.output.php",
+          "settings": {
+            "foreground": "#001fcc",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          // isset, is_numeric, defined, date_default_timezone_set, use blue
+          "scope": [
+            "support.function.php",
+            "keyword.other.use.php"
+          ],
+          "settings": {
+            "foreground": "#001fcc"
+          }
+        },
+        {
+          // Strings red
+          "scope": [
+            "string.quoted.single.php",
+            "string.quoted.double.php"
+          ],
+          "settings": {
+            "foreground": "#ff0000b2"
+          }
+        },
+        {
+          // if, else, return green
+          "scope": "keyword.control.php",
+          "settings": {
+            "foreground": "#00ff00",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          // Parentheses & Braces green
+          "scope": [
+            "punctuation.section.group.begin.php",
+            "punctuation.section.group.end.php",
+            "punctuation.section.block.begin.php",
+            "punctuation.section.block.end.php"
+          ],
+          "settings": {
+            "foreground": "#00ff00"
+          }
+        },
+        {
+          // Logical operators blue
+          "scope": [
+            "keyword.operator.logical.php",
+            "keyword.operator.comparison.php"
+          ],
+          "settings": {
+            "foreground": "#001fcc"
+          }
+        },
+        {
+          // PHP superglobals ($_POST, $_GET, $_SESSION) skyblue
+          "scope": "variable.other.global.php",
+          "settings": {
+            "foreground": "#00cfff",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          // $this skyblue
+          "scope": "variable.language.this.php",
+          "settings": {
+            "foreground": "#00cfff",
+            "fontStyle": "bold"
+          }
+        }
+      ]
+    }
+  }
+}

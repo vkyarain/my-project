@@ -1,0 +1,21 @@
+{
+  "workbench.colorTheme": "JellyFish",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.guides.bracketPairs": "active",
+  "dbcode.connections": [
+    {
+      "connectionId": "jANA4DxQlVOJ0PCYotz2W",
+      "name": "ProductsAPIs",
+      "driver": "sqlite",
+      "connectionType": "socket",
+      "socket": "c:\\Users\\Waqar Qayoom\\Desktop\\symfony-product-api\\product-api\\var\\data_dev.db",
+      "readOnly": false,
+      "driverOptions": {
+        "extensions": []
+      },
+      "idleTimeout": 0
+    }
+  ],
+  "dbcode.resultLocation": "below"
+}
