@@ -7,7 +7,6 @@
 </head>
 <body>
     GIT Revert
-    wrong code added
 </body>
 </html>
 
