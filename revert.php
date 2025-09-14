@@ -16,5 +16,3 @@ git log //press q for termination
 git log --oneline
 git revert b18f5f4
 git push
-
-asf
