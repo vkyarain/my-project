@@ -7,7 +7,12 @@
 </head>
 <body>
     GIT Revert
+<<<<<<< HEAD
     wrong code added
+=======
+
+    ye wrong file add kar di ma ne
+>>>>>>> parent of 4bb7564 (asf)
 </body>
 </html>
 
