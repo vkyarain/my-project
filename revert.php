@@ -7,13 +7,14 @@
 </head>
 <body>
     GIT Revert
+    wrong code added
 </body>
 </html>
 
 commands:
 git log //press q for termination
 git log --oneline
-git revert 4f11659
+git revert b18f5f4
 git push
 
 asf
